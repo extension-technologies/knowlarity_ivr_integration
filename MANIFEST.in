@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include knowlarity_ivr_integration *.css
+recursive-include knowlarity_ivr_integration *.csv
+recursive-include knowlarity_ivr_integration *.html
+recursive-include knowlarity_ivr_integration *.ico
+recursive-include knowlarity_ivr_integration *.js
+recursive-include knowlarity_ivr_integration *.json
+recursive-include knowlarity_ivr_integration *.md
+recursive-include knowlarity_ivr_integration *.png
+recursive-include knowlarity_ivr_integration *.py
+recursive-include knowlarity_ivr_integration *.svg
+recursive-include knowlarity_ivr_integration *.txt
+recursive-exclude knowlarity_ivr_integration *.pyc
